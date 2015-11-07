@@ -1,0 +1,267 @@
+/* content.html */
+.deal-div-border {
+	margin-left: 2em;
+	width: 28em;
+	height: 34em;
+	border: 1.5em solid #ddd2d3;
+}
+.h3-alignment {
+	text-align: center;
+	background-color: #524446;
+	padding:1em;
+	margin-top: -0.1em;
+	color: #fff;
+	font-family:Verdana;
+}
+.image-resize {
+	margin-top: -0.6em;
+	width: 25em;
+	height: 27em;
+}
+
+.bestselling-border {
+	margin-left: 0.2em;
+	border: 1em solid #fff;
+}
+
+.header-backcolor {
+	text-align: center;
+	background-color: #BBA6A8;
+	margin-top: -0.1em;
+	padding: 0.5em;
+	color: #fff;
+	font-weight: 500;
+	font-family:Verdana;
+}
+.deal-div-border p{
+	display:none;
+	margin-top:5em;
+	border:1px solid green;
+}
+.deal-div-border a:hover{
+	opacity:0.5;
+}
+
+.search-margin-Left {
+	margin-left:8%;
+	width:80%;
+}
+/*product Info */
+.element-margin {
+	margin: 2em;
+	border: 0.8em solid #ddd2d3;
+	box-shadow: 10px 5px 5px #C3C3C3;
+	height: 30em;
+	text-align:center;
+}
+.ngCart-position {
+	margin-left: 1em;
+}
+
+#btn-margin-Left {
+	margin-left: 2em;
+	cursor: pointer;
+	background-color:#524446;
+	border:0.2em solid #524446;
+	border-radius:0.2em;
+	color:#fff;
+	padding:0.6em;
+}
+
+.msg-font {
+	color: #524446;
+	background-color: #D7D7D7;
+}
+
+#msg-font {
+	color: #3f3e5e;
+	background-color: #D7D7D7;
+}
+
+.pointer {
+	cursor: pointer;
+	margin-left: -1em;
+}
+
+.pointer p {
+	padding: 0.7em;
+}
+/* productinfo.html*/
+.buttons{
+	diaplay:inline;
+	margin-right:2em;
+	font-weight:600;
+	padding:0.7em;
+	border-radius:0.4em;
+	color:#fff;
+	background-color:#524446;
+}
+.buttons:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.div-margin-left{
+	margin-left:48%;
+}
+.img-lg-position {
+	width: 40em;
+	height: 30em;
+	float: left;
+	box-shadow: 5px 10px 10px black;
+}
+
+.product-info-position {
+	margin-top: 1em;
+	float: left;
+	margin-left: 2em;
+}
+
+.product-color {
+	color: #524446;
+}
+
+.submit-color {
+	background-color: #524446;
+	color: #fff;
+	margin-top: -2em;
+	margin-right: 2.5em;
+	padding: 0.3em;
+	border-radius: 0.2em;
+}
+#gallery{
+	width:100%;
+	margin-left:6.5em;
+}
+.submit-color:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.description-width {
+	width: 35em;
+}
+
+.text-Justify {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.text-width {
+	width: 85em;
+	margin-left: 3em;
+}
+
+/*cart.html*/
+.button-container {
+	background-color: #524446;
+	color: #fff;
+	margin-top: 1em;
+	margin-right: 8em;
+	padding: 0.7em;
+	border-radius: 0.3em;
+}
+
+.button-container:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.table-text-color {
+	color: #524446;
+	font-weight: 600;
+	font-size: 1em;
+}
+
+.shipping {
+	border: 1em solid #C6B4B6;
+	background-color: #fff;
+	margin-left:2%;
+	width: 95.5%;
+	padding:1em;
+}
+
+.shipping-Wrapper {
+	margin-left: 3%
+}
+ */
+.input-width {
+	width: 50%;
+}
+/* about us*/
+.element-background {
+	background-image: url("../img/static-images/cupcakes.jpg");
+	background-repeat: no-repeat;
+	margin-top:-1.3em;
+	margin-left: 0.5em;
+	background-position: 50% 30%;
+	width:99.2%;
+	height:23em;
+}
+
+/* login*/
+.login {
+	width: 99%;
+	background-color: #fff;
+	float: left;
+	border: 1em solid #C6B4B6;
+	margin-left: 0.7em;
+}
+
+.login-Wrapper {
+	width: 46%;
+	margin-left: 6%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.input-width {
+	width: 50%;
+}
+
+.guest {
+	margin-top: 7%;
+	margin-left: 2em;
+	background-color: #fff;
+	width: 40%;
+	text-align: center;
+}
+
+.guestButton {
+	margin-top: 1em;
+	padding: 0.4em;
+	color:#fff;
+	background-color:#524446;
+	border:#e6e6e6;
+	border-radius:0.3em
+}
+
+.small-font {
+	font-size: 0.8em;
+	color:#524446;
+}
+
+.line {
+	margin-top: 0.9em; 
+	float : left;
+	display: block;
+	border : 0.3em solid #C6B4B6;
+	height: 22em;
+}
+
+/*signup*/
+.signUp {
+	border: 1em solid #C6B4B6;
+	background-color: #fff;
+	width: 99%;
+	margin-left:0.7em;
+}
+.signUp-Wrapper {
+	margin: 3%
+}
+.input-width {
+	width: 50%;
+}
+
+.li-list-style-type li {
+	list-style-type: disc;
+}

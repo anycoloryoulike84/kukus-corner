@@ -1,0 +1,1038 @@
+/* @font-face {
+    font-family:vesper;
+    src: url("../fonts/VesperLibre.ttf") format('truetype');
+}
+@font-face {
+    font-family:medieval;
+    src: url("../fonts/medievalsharp.regular.ttf") format('truetype');
+} 
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}*/
+/* @media (min-width:501px) and (max-width:899px),
+(min-width:900px) { */
+/*body{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	color:#7992B7;
+	font-family:calibri;
+}
+a
+{
+	color:#7992B7;
+}
+.clear
+{
+	clear:both;
+}
+.break
+{
+	margin-top:1.5em;
+}
+ h1
+{
+	font-size:2.2em;
+	color:#FFF;
+} 
+ #container
+{
+	float:left;
+	width:100%;
+	background-image:url('../img/imgF.jpg');	LOGO
+	background-repeat:no-repeat;
+	border-radius:0.4em;
+}
+#logo
+{
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	float: left;			logo
+	margin-top:1em;
+	margin-left:1em;
+	font-family:medieval;
+	text-shadow:3px 3px 6px #E7554A;
+	text-decoration:none;
+}
+.main_logo
+{
+	text-decoration:none;
+}
+.main_logo:hover :visited :focus
+{
+	text-decoration:none;
+}
+
+#login
+{
+	margin-top:1em;
+	margin-left:20%;
+	float:left;					login
+	border-radius:0.5em;
+	margin-left:21em;
+	margin-top:1em;
+}
+.plural_position
+{
+	float:left;
+	color:white;
+	margin-left:12em;
+	margin-top:-2.7em;
+}
+#cart_img
+{
+	 height:2em;
+	 width:1.7em;
+	 background-color:#B90504;
+	 float:left;
+	 margin-left:10em;
+	 margin-top:-1.7em;
+}
+
+.main_logo:hover
+{
+	text-decoration:none;
+}
+.clear
+{
+	clear:both;
+}
+.spacer
+{
+	width:100%;
+	height:1.4em;
+}
+.text_box
+{
+	margin-left:1em;
+	font-family:vesper;
+	color:#B90504;
+	float:left;
+}
+.a-margin
+{
+	margin-right:0.5em;
+	color:#fff;
+	text-decoration:none;
+	font-size:1em;
+	font-family:vesper;
+}
+.a_font
+{
+	color:#B90504;
+	text-decoration:none;
+	font-size:1.2em;
+	font-family:vesper;
+}
+.a_font:hover
+{
+	text-decoration:none;
+	color:#B90504;
+}
+.go_font
+{
+	color:#B90504;			same go button
+	text-decoration:none;
+}
+.a_wrapper
+{
+	float:left;
+	margin-left:19em;
+}
+.hr_style
+{
+	display:inline;
+	margin-right:0.5em;
+	color:#fff;
+	border:0.1em dotted #fff;
+}
+#a_margin
+{
+	margin-right:0em
+}
+#img_pos
+{
+	float:left;				follow us - div
+	margin-left:4.5em;
+	color:#B90504;
+	border-radius:0.4em;
+	margin-top:-0.4em;
+	padding-top:0.3em;
+	padding-right:0.2em;
+	padding-bottom:-0.1em;
+	margin-right:0.5em;
+	width:30em;
+}
+.new_arr
+{
+	display:none;
+}
+
+.div_pos
+{
+	
+	margin-left:0.3em;
+	float:left;				follow us - images
+}
+.img_border
+{
+	height:25px;		follow_us - images
+	border-radius:0.8em;
+	border:0.1em solid #B90504;
+	width:24px;
+}
+#placeholder
+{
+	color:#B90504;			search bar
+	margin-left:1em;
+	width:35em;
+	height:2em;
+}
+.mobile_clear
+{
+	display: none;
+}
+.hide_footer
+{
+	display:none;
+}
+#button_pos
+{
+	margin-left:0.5em;		best selling buttons
+}
+#footer
+{
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	color:#fff;
+	width:99.4%;
+	height:15em;
+	margin-top:2.8em;
+	border-radius:1em;
+}
+#footer:hover
+{
+	background: -webkit-linear-gradient(#DB4342, #B90504); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504); Standard syntax (must be last)
+	
+}
+.footer_margin
+{
+		float:left; 
+		margin-left:-1em;
+}
+.search-container{
+	margin-top:8em;
+}
+#p_style
+{
+	margin:2em 1em 1em 13em;
+	color:#B90504;
+	font-size:1em;
+	font-weight:bolder;
+	float:left;
+}
+
+.td_pos
+{
+	z-index:1;
+	position:absolute;	
+	table position
+}
+.a_fonts:hover
+{
+	color:#FFAA55;
+	text-decoration:underline;
+}
+
+.button_style
+{
+	float : left;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	color:#fff;
+	margin-left:0.2em;
+	padding:0.4em;
+	text-decoration:none;
+	border-radius:0.4em;
+	width:97%;
+	text-align:center;
+	text-transform: uppercase;
+}
+.button_style:hover
+{
+	text-decoration:none;
+	color:#FFF;
+	background: -webkit-linear-gradient(#DB4342, #B90504); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504); Standard syntax (must be last)
+}
+.div_styling
+{
+	margin-left:1em;
+	
+}
+.styling
+{
+	float:left;
+	margin-left:1em;
+	height:170px;
+	width:245px;
+	border-radius:1em;
+}
+.h5_styling
+{
+	float:left;
+	margin-left:5.4em;		
+}
+.h5_styling1
+{
+	float:left;
+	margin-left:7.8em;
+}
+.break
+{
+	margin-top:1.5em;
+}
+.break_margin
+{
+	margin-top: 0.3em;
+}
+.a_styling2
+{
+	float:left;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	color:#fff;
+	padding:0.3em;
+	text-decoration:none;
+	border-radius:0.4em;
+}
+.a_styling2:hover
+{
+	text-decoration:underline;
+	background: -webkit-linear-gradient(#DB4342, #B90504); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504); Standard syntax (must be last)
+}
+
+li
+{
+	list-style-type:none;
+}
+.field1
+{
+	color:#fff;
+	font-size:0.9em;
+	text-decoration:none;	footer
+}
+.field1:hover
+{
+	text-decoration:underline;
+	color:#FFA815;
+}
+.detail_style
+{
+	float:left;
+	display:block;
+	font-size:10pt;
+}
+.copyright
+{
+	color:#fff;
+	width:99%;
+	font-size:1.3em;
+	padding:0.5em;			copyright
+	text-align:center;
+	border-radius:0.5em;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+}
+#mobile_footer
+{
+	display:none;
+}
+.connect
+{
+	float:left;
+	color:#B90504;
+	margin-left:30%;		follow_us - div ; connect us
+	margin-top:0.4em;
+	
+}
+.img_size
+{
+	float:left;
+	margin-left:1em;
+	margin-top:0.4em;
+	height:2em;
+	width:2em;
+}
+
+Menu Bar
+
+.list
+{
+	
+	float:left;
+	margin-left:-2.5em;	
+}
+.list ul li
+{ 
+	width:10.4em;
+    float:left;
+    display:block;
+    text-align:center;
+    padding:5px;
+    margin-left:0.12em;
+	float:left;
+	border-radius:0.3em;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	
+}
+.list ul li a 
+{
+	text-decoration:none;
+	color:#fff;
+	font-family:vesper;
+	font-size:1em;
+	text-align:center;			
+}
+.list ul li a:Hover 
+{
+	text-decoration:underline;
+	
+}
+.list ul li:Hover
+{
+	background: -webkit-linear-gradient(#DB4342, #E7554A); For Safari 5.1 to 6.0 --- light color
+    background: -o-linear-gradient(#DB4342, #E7554A); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #E7554A); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #E7554A); Standard syntax (must be last)
+	
+}
+.wrapper
+{
+    display:none;
+}
+#menu :hover .wrapper
+{
+    display:block;
+}
+.submenu
+{
+    list-style-type:none;
+    text-align: left;
+    margin-left: -48px ;
+	margin-top:15px;
+	width:10em;
+}
+.submenu_li
+{
+    padding: 0.25em;
+	border-top: 1px solid #fff;
+	white-space:nowrap;
+}
+slider
+*{
+	margin:0px;
+	}
+#slider {
+	height:25em;
+	width:54em;
+	margin-left:0.5em;
+	position:relative;
+	border-radius:0.5em;
+	overflow:hidden;
+	border:0.7em solid #B90504;
+	}
+#image {
+	height:25em;
+	width:54em;
+	position:absolute;
+	}
+.left_hold {
+	height:25em;
+	width: 10em;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right_hold {
+	height: 25em;
+	width: 10em
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.left {
+	height:4em;
+	width:4em;
+	position:absolute;
+	top:40%;
+	left:2em;
+	background-color:#B90504;
+	border-radius:8em;
+	opacity:0.2;
+	transition: all .2s ease-in-out 0s;
+	}
+.right {
+	height:4em;
+	width:4em;
+	position:absolute;
+	top:40%;
+	background-color:#B90504 ;
+	border-radius:8em;
+	right:2em;
+	opacity:0.2;
+	transition: all .5s ease-in-out 0s;
+	
+	}
+.left_hold:hover .left {
+	opacity:0.8;
+	border:0.2em solid #B90504;
+	border-radius:8em;
+	}
+.right_hold:hover .right {
+	opacity:0.8;
+	border:0.2em solid #B90504;
+	border-radius:8em;
+}
+ LOGIN-PAGE
+.sign_up
+{
+	float:left;
+	width:97%;
+}
+.form_style
+{
+	font-size:1.1em;
+	margin-left:0.4em;
+	float:left;
+	width:90%;
+}
+.image_login
+{
+	width:54em;
+	height:20em;
+	margin-left:1em;
+}
+.sign_in
+{
+	font-size:1.1em;
+	color:#fff;
+	background-color: #B90504;	
+}
+
+.signup_style
+{
+	float:left;
+	margin-top:1em;
+	border-radius:0.1em;
+	text-align:10%; 
+	width:97%;
+	color:#fff;
+	background: -webkit-linear-gradient(left,#B90504,#ff5656,#fff9f9); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(left,#B90504,#ff5656,#fff9f9); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(left,#B90504,#ff5656,#fff9f9); For Firefox 3.6 to 15
+    background: -ms-linear-gradient(left,#B90504,#ff5656,#fff9f9);  IE10
+    background: linear-gradient(left,#B90504,#ff5656,#fff9f9); Standard syntax (must be last)
+}
+.span_color
+{
+	color:orange; 
+	font-weight:bolder;
+}
+.error
+{
+	float:right;
+	color:orange;
+}
+.float
+{
+	float:left;
+}
+.log_in
+{
+	position:relative;
+	margin-right:1.5em;  
+	margin-top:-2.8em; 
+	width:55%;
+	height:100%;
+	float:right;  
+}
+.forget_pswd
+{
+	margin-left:0.5em;
+	float:left;
+	text-decoration:none;
+	color:#BB0908;
+}
+.forget_pswd:hover
+{
+	text-decoration:underline;
+}
+.sign_in
+{
+	margin-left:2em;
+	border-radius:0.4em;
+}
+.style_h2		SIGN IN
+{
+	color:#fff;
+	width:100%;
+	background: -webkit-linear-gradient(left,#B90504,#DB4342,#ffe9e9); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(left,#B90504,#DB4342,#ffe9e9); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(left,#B90504,#DB4342,#ffe9e9); For Firefox 3.6 to 15
+    background: -ms-linear-gradient(left,#B90504,#DB4342,#ffe9e9); IE10
+    background: linear-gradient(left,#B90504,#DB4342,#ffe9e9); Standard syntax (must be last)
+	font-size:1em;
+}
+.create_profile
+{
+	color:#fff;
+	border-radius:0.4em;
+	padding:0.3em;
+	background-color:#BB0908;
+}
+.font_id
+{
+	float:left;
+	font-size:1.2em;
+	margin-left:0.5em;
+}
+.inputs
+{
+	margin-top:0em;
+	width:13em;
+	float:left;
+	font-size:1em;
+	margin-right:0.5em;
+}
+.margin_left
+{
+	margin-left:3em;
+}
+.margin_left2
+{
+	margin-left:2.2em;
+}
+.word_space
+{
+	letter-spacing:0.2em;	
+}
+
+.errorinput
+{
+	border:1px solid #B90504;
+}
+
+content.html : image sliders 
+.borders
+{
+	border:0.3em solid #B90504;
+}
+
+.position_info
+{
+	cursor:pointer;
+	margin-left:1.5em; 
+	font-size:0.7em;
+	font-weight:bold; 
+    width:90%;	
+}
+
+.images_size
+{
+	height:11em;
+	width:11em;
+}
+
+.left_pos
+{
+	height:2em;
+	width:2em;
+}
+.right_pos
+{
+	height:2em;
+	width:2em;
+}
+
+
+product details
+.data-position
+{
+	margin-left:1.5em;
+	font-size:1.1em;
+}
+modal window
+.description_width
+{
+	float:right;
+	 width:50%;
+}
+.dialog_width
+{
+	margin-left:10%;
+	margin-bottom:0em;
+	width:90%;
+	height:100%;
+	background-color:#000;
+	opacity: 1;
+} 
+.medium-image_modalBox
+{
+	margin-left:10%;
+	margin-bottom:0em;
+	width:90%;
+	height:100%;
+	background-color:white;
+} 
+.size small images size
+{
+	margin-left:1em;
+	display:inline;
+	cursor: pointer;
+	width:9.6em;
+	height:7em;
+}
+.medium_imageSize  medium images size
+{
+	width:50%;
+	height:28em;
+	margin-bottom:0.6em;
+	float:left;
+	cursor: pointer;
+	border-radius:0.4em;
+	box-shadow: 0.5em 0.5em 1em #000;
+} 
+.large_imagesize	large images size
+{
+	width:100%;
+	height:41%;
+	margin:0em
+} 
+.modalBox_margin
+{
+	font-size:1em; 
+	margin-top:6em;
+}
+.ng-modal-overlay 
+{
+	 A dark translucent div that covers the whole screen
+	position:absolute;
+	z-index:9999;
+	top:0;
+	left:0;
+	width:100%;
+	height: 88em;
+	background-color:#fff;
+	opacity: 0.8;
+}
+	
+.ng-modal-dialog 
+{
+	A centered div above the overlay with a box shadow.
+	z-index:10000;
+	position: absolute;
+	width:70%; Default
+  Center the dialog
+    margin-top:-2em;
+    top: 5%;
+	left: 1%;
+	transform: translate(+20%, +20%);
+	-webkit-transform: translate(+20%, +20%);
+    -moz-transform: translate(+20%, +20%);
+	background-color: #fff;
+	box-shadow: 4px 4px 80px #747474;
+}
+	
+.ng-modal-dialog-content
+{
+	padding:0em;
+	margin-top:-1em;
+}
+	
+.ng-modal-close 
+{
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	padding: 5px;
+	background-color:#fff;
+	color:red;
+	border-radius:1em;
+	cursor: pointer;
+	font-size: 120%;
+	display: inline-block;
+	font-weight: bold;
+	font-family: 'arial', 'sans-serif';
+}
+ratings
+.rating_position
+{
+	float:left;
+	margin-left:1.6em; 
+	margin-top:0px;
+} 
+.rating
+{
+  color: #a9a9a9;
+  margin: 0;
+  padding: 0;
+}
+
+ul.rating 
+{
+  display: block;
+}
+
+.rating li 
+{
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rating .filled 
+{
+  color: #30732E;
+}
+
+.ng-if 
+{
+	display:none;
+}
+.hide_it
+{
+	display:none;
+}
+.show_it
+{
+	display:block;
+}
+.width
+{
+	width:auto;
+	font-size:1em;
+	height:10%;
+	float:left;
+	margin-left:30%;
+}
+QUANTITY COUNTER
+
+.ul_style 
+{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px;
+}
+.quantity_wrapper
+{
+    margin-top:-1em;
+    background: white;
+    
+    width:20%;
+    float:left; 
+    margin-top:-0.7em;
+    margin-left:1em;
+}
+
+
+.counter-wrapper .counter-minus, .counter-plus 
+{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #B90504;
+    color: white;
+    margin: 0;
+    height:3px;
+    padding: 5px;
+    text-decoration: none;
+}
+.counter-wrapper .counter-field 
+{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+}
+ CAKE HTML
+
+#photolist
+{
+	width:98%; 
+	display:inline; 
+	float:left; 
+	margin-top:1em;
+}
+.photolist_postion
+{	
+	width:17em; 
+	height:11em; 
+	float:left; 
+	margin-left:1em;
+}
+
+.btn {
+
+  cursor:pointer;
+  background-color: #B90504; 
+  color: white;
+  float:left;
+  margin-left:5em;
+  font-size:1em; 
+  width:7em; 
+  padding:0.5em;
+  border-radius:0.3em;
+  margin-top:-0.5em;
+}
+
+.form-control
+  {
+    display:block;
+    float:left;
+    width:40em;
+    height:1em;
+    padding:6px 8px;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#555;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+   }
+
+.form-control:focus{
+	border-color:#66afe9;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.color-black,b
+{
+	color:#B90504;
+	font-size:1em;
+}
+.sizes_position{
+	color:red; 
+	font-size:1.1em; 
+	float:left;
+	margin-top:-1.7em; 
+	margin-left:4em;
+}
+.rows
+{
+	margin-left:-2.5em;	
+}
+.row
+{
+	
+}
+.small_image
+{
+	width:16.5em;
+	height:14em;
+	margin-left:0.8em;
+	margin-top:1em;
+}
+
+.bigger_image
+{
+	width:24em;
+	height:16em;
+	margin-left:0.8em;
+	margin-top:1em;
+}
+
+.product-name
+{
+	margin-left:1em;
+	text-align:center;
+}
+.product-price
+{
+	margin-left:30%;
+	float:left;
+	margin-right:20%;
+}
+.li-position
+{
+	margin-top:0em;
+	width:18em; 
+	height:28em; 
+	float:left;
+}
+.mark-style
+{
+	width:16em;
+	float:left;
+	margin-left:1.2em;
+	background-color:#FFFFD4;
+}
+.a-color
+{
+	margin-left:0.4em;
+	float:left;
+	cursor: pointer;
+	color: #B90504;
+}
+.a-color:hover
+{
+	margin-left:0.4em;
+	cursor: pointer;
+	color:#FFAA00;
+}
+.table td
+{
+    font-size: 14px;
+}
+.table tfoot td
+{
+    font-weight: bold;
+}
+
+ .ngCart.cart span[ng-click] 
+{       
+	cursor: pointer;
+
+}
+.ngCart.cart .glyphicon.disabled 
+{
+    color:#aaa;
+}
+
+.quick-look
+{
+	width:3em;
+	height:3em;
+	
+} */
+
+/* } */
+
+
+

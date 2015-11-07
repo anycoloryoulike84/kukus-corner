@@ -1,0 +1,124 @@
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+body{
+	width:100%;
+	margin:0 auto;
+	color:#524446;
+	overflow-x: hidden;
+}
+body,h1,h2,h3,h4,a,p,div{
+	/* font-family:Verdana; */
+	font-family:Verdana;
+}
+#style-body
+{
+	background-color:#f7f7f7;	
+}
+li{
+	list-style-type:none;
+}
+a
+{
+	color:#337ab7;
+	text-decoration:none;
+}
+a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.clear
+{
+	clear:both;
+}
+.break
+{
+	margin-top:1.5em;
+}
+.margin-break{
+	margin-top:4em;
+}
+.element-Width{
+	width:94%;
+	margin-left:2em;
+	color:#4B4B4B;
+}
+.margin-Left{
+	margin-left:3em;
+}
+.Margin-Left{
+	margin-left:1em;
+}
+.padding-Bottom{
+	padding:1em;
+}
+/*carousal*/
+.small-img
+{
+	display:inline;
+	cursor: pointer;
+	width:15em;
+	height:13em;
+	box-shadow: 5px 10px 10px black;
+}
+.product-font
+{
+	margin-top:1em;
+	color:#524446;
+	margin-left:1.5em; 
+	font-size:0.9em;
+	font-weight:bold; 
+    width:90%;	
+    text-align:center;
+}
+.header-color{
+	 margin-left:0.7em;
+	 color:#337AB7;
+	 font-weight:bold;
+}
+.fa{
+	color:#524446;
+}
+.fa:hover{
+	color:#565094;
+}
+.btn-color{
+	background-color:#524446;
+	color:#fff;
+	margin-left:1em;
+}
+.btn-color:hover{
+	color:#fff;
+}
+.hr-color{
+	margin-top: -1em;
+	border: 0.1em solid #524446;
+	width: 80%;
+	margin-left: 6%;
+	float: left;
+}
+/*ng-cart*/
+
+.ngCart.cart span[ng-click] {
+	cursor: pointer;
+}
+
+.ngCart.cart .glyphicon.disabled {
+	color: #aaa;
+}
+
+/*shipping details*/
+
+.img-opacity{
+	opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    box-shadow: 5px 10px 10px #e6e6e6;
+}
+
+/*about us*/
+.h4-color{
+	 color:#E65866;
+	 padding:0.4em;
+	 font-weight:700;
+}

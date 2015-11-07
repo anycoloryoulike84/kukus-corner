@@ -1,0 +1,55 @@
+<div class="Margin-Left">
+   
+	
+	<div class="shipping">
+
+		<div class="shipping-Wrapper">
+		<h4 class="h4-color">FEEDBACK</h4>
+		<form name="break contactUsForm">
+	
+			<p class="header-font-color break">FIRST NAME:</p>
+			<input type="text" name="fName" placeholder="First Name"
+				ng-model="users.fName" class="input-width" required />
+	
+			<p class="header-font-color break">LAST NAME:</p>
+			<input type="text" name="lName" placeholder="Last Name"
+				ng-model="users.lName" class="input-width" required />
+	
+			<p class="header-font-color break">EMAIL ID:</p>
+			<input type="email" name="email" placeholder="Email"
+				ng-model="users.Email" class="input-width" required /> <span>eg:john@doe.com</span>
+	
+			<p class="header-font-color break">MOBILE</p>
+			<input type="text" pattern='\d{3}[\-]\d{3}[\-]\d{4}' name="phone"
+				placeholder="XXX-XXX-XXXX" maxlength="12" ng-model="users.phone"
+				class="input-width" required /> <span>eg:111-111-1111</span>
+			
+			<p class="header-font-color break">MESSAGE:</p>
+			<textarea placeholder="ENTER YOUR REVIEWS" rows="4" cols="90"></textarea>
+		
+			<div class="break"></div>
+	
+			<div id="signInButton" style="margin-bottom: 5em">
+				<input type="submit" class="btn btn-primary" ng-click="update(users)"
+					value="SUBMIT" />
+			</div>
+	
+			<!-- <ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout> -->
+	
+		</form>
+	</div>
+	<div class="margin-Left">
+		<h4 class="h4-color">CONTACT US</h4>
+		<p class="break product-color">
+		For inquiries contact our customer care center at cs@kukuscorner.com 
+	    <br/>
+	    US customers : +1-408-425-6090.
+	    <br/>
+	    India customers : +91-9819972099 </p>
+    </div>
+</div>
+</div>
+
+
+
+	

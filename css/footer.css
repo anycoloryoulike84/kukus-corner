@@ -1,0 +1,24 @@
+.hr-horizontal{
+	display:block;
+	width:100%;
+	border:0.1em solid #524446;
+}
+#footer
+{
+	background-color:#524446;
+	color:#fff;
+}
+#footer ul{
+	padding:1em;
+}
+#footer ul li{
+	list-style-type:none;
+}
+#footer ul li a{
+	color:#fff;
+}
+.footer-margin{
+	margin-left:0.6em;
+	width:18em;
+	float:left;
+}

@@ -1,0 +1,53 @@
+
+<div class="login">
+
+	<div class="login-Wrapper pull-left">
+		<h3 class="product-color">SIGN INTO YOUR ACCOUNT</h3>
+
+		<form class="product-color" ng-submit="login()">
+
+			<p>EMAIL ID:</p>
+			<input type="email" name="email" placeholder="Email"
+				class="input-width" ng-model="user.email" />
+			<div class="break"></div>
+			<p>PASSWORD:</p>
+			<input type="password" name="password" placeholder="Password"
+				class="input-width" ng-model="user.password" />
+
+			<div class="break"></div>
+			<a href="#" class="small-font">Forget your password?</a>
+
+			<div>
+				<input type="checkbox" checked /> <span class="small-font">Stay
+					Signed In</span>
+			</div>
+
+			<input class="guestButton" type="submit" ng-click="reset()" value="RESET" /> 
+			<input class=" guestButton" type="submit" ng-click="update(user)" value="SIGN IN" />
+
+		</form>
+
+		<!-- <pre>form = {{user | json}}</pre>
+  				<pre>master = {{master | json}}</pre> -->
+
+
+	</div>
+	<hr class="line">
+	<div class="guest pull-left">
+
+		<h3 class="product-color ">CONTINUE WITHOUT SIGNING IN</h3>
+
+		<p>
+			Register for <a href="#signup">new account</a> to receive deals
+		</p>
+
+		<a href="#shipping"><button class="guestButton">Continue
+				as a Guest</button></a>
+
+	</div>
+
+</div>
+
+<div class="clear"></div>
+<div class="break"></div>
+

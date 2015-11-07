@@ -1,0 +1,105 @@
+
+<div class="margin-Left">
+
+	<img ng-src="{{ lrgImageURL }}" class="break img-lg-position" />
+
+	<div class="product-info-position">
+		<!-- <p>{{ lrgImageDesc }} </p> -->
+		<h4 class="product-color"><b>{{ lrgImageName }}</b></h4>
+		
+		<p class="product-color">
+			<b  >Price :</b> {{ lrgImagePrice }}
+		</p>
+		
+		<p class="product-color">
+			<b  >Ingredients: </b>{{lrgImageIngredients}}
+		</p>
+		
+		<p class="product-color">
+			<b  >Category : </b>{{category}}
+		</p>
+		
+		<div ng-if="category == 'Cakes' || category == 'Chocolates' ">
+				
+				<p class="product-color">
+					<b  >Calories: </b>{{lrgImageCalories}}
+				</p>
+	
+				<!-- =================== SIZES IN CAKES ================= -->
+	
+				<p class="product-color pull-left"><b  >SIZES:</b></p>
+				<span class="pull-left  Margin-Left"> <select
+					class="product-color">
+						<option>4 inch</option>
+						<option>8 inch</option>
+						<option>10 inch</option>
+						<option>12 inch</option>
+						<option>16 inch</option>
+				</select>
+				</span>
+				<div class="clear"></div>
+
+		</div>
+		
+		<!-- ======================================= ADD TO CART ======================================= -->
+	<div class="padding-Bottom">
+	
+		<ngcart-addtocart id="{{lrgImageID}}" name="{{lrgImageName}}"
+			price="{{lrgImagePrice}}" quantity="1" quantity-max="5">Add
+		to Cart</ngcart-addtocart>
+		
+	</div>
+		
+		
+	<div class="break">
+	
+		<h4  > PRODUCT DESCRIPTION </h4>
+	
+		<div class="description-width">
+		
+			<p class="product-color">
+				<b  >Description: </b> {{ lrgImageDesc }}
+			</p>
+			
+		</div>
+
+		<!-- ======================================= RATINGS ======================================= -->
+
+		<p class="product-color pull-left"><b  >Ratings:</b> </p>
+		
+		<span class="pull-left product-color Margin-Left"> 
+		<rating ng-model="rate" max="max" readonly="isReadonly"
+				on-hover="hoveringOver(value)" on-leave="overStar = null"
+				titles="['one','two','three']"> </rating> 
+		<span class="label"	ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}"
+			ng-show="overStar && !isReadonly"> {{percent}}% </span>
+		</span>
+		
+		<div class="clear"></div>
+
+		<!-- ============================= REVIEWS ========================== -->
+
+		<p class="product-color">
+			<b  > Reviews: </b>
+		</p>
+		<textarea placeholder="ENTER YOUR REVIEWS" class="product-color" rows="2" cols="40"></textarea>
+		
+		<a href="#login" class="pull-right Margin-Left submit-color ">SUBMIT</a>
+	</div>
+	<div class="clear"></div>
+	<div class="break"></div>
+	
+</div>
+
+	
+</div>
+
+
+<div class="break pull-left div-margin-left">
+	<div class="pull-left">
+		<a href="#login" class="buttons">Proceed to checkout </a>
+	</div>
+	<div class="pull-left">
+		<a href="javascript:javascript:history.go(-1)" class="buttons">Continue Shopping </a>
+	</div>
+</div>

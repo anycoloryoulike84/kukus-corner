@@ -1,0 +1,252 @@
+/* 
+@media (min-width:200px) and (max-width:500px){
+	body,body *
+	{
+		margin:0 auto;
+		padding:0;
+		font-family:vesper;
+	}
+	h1
+	{
+		margin-left:15%;
+		color:#FFF;
+	}
+#logo
+{
+	width:90%;
+	background-image:url('../img/imgF.jpg');	LOGO
+	background-repeat:no-repeat;
+	color:#fff;
+	padding:1em;
+	text-align:45%;
+	font-family:medieval;
+	text-shadow:3px 3px 6px #E7554A;
+}
+#login
+{
+	margin:0 auto;
+	color:#FFAA55;			LOGIN
+	margin-left:15%;
+	
+}
+.hr_style
+{
+	display:inline;
+	margin-right:3%em;
+	color:#B90504;
+	border:0.1em dotted #B90504;
+}
+.text_box
+{
+	font-family:vesper;
+	background-color:#B90504;
+	color:#fff;
+	height:2.1em;
+	margin-left:0.2em;
+	width:98%;	
+}
+.main_logo
+{
+	text-decoration:none;
+}
+.go_font
+{
+	color:#fff;				same go button
+	text-decoration:none;
+}
+.a_fonts
+{
+	color:#B90504;
+	text-decoration:none;
+	font-size:1em;
+	margin-left:2%;
+	font-family:vesper;
+}
+.a_fonts:hover
+{
+	color:#FFAA55;
+	text-decoration:underline;
+}
+#cart_img
+{
+	 height:22px;
+	 width:22px;
+	 margin-top:0.4em;
+	 margin-left:1%;
+	 background-color:#B90504;
+	 border:1px solid #fff;
+}
+.clear
+{
+	clear:both;
+}
+.search
+{
+	margin-left:5%;
+	padding:1%;
+}
+#placeholder
+{
+	color:#B90504;
+	margin-left:1em;	search bar
+	width:12em;
+	height:2em;
+}
+.div_pos
+{
+	color:#B90504;
+	padding:1em;
+	margin-left:11%;		follow_us - div
+	float:left;
+}
+#image
+{
+	width:5em;
+	height:4em;
+}
+.break
+{
+	margin-top:2em;
+}
+menu bar
+
+list
+{
+	border:1px solid #000;
+}
+table
+{
+	margin-left:-0.1em;
+	width:99%;
+	text-transform: uppercase;
+}
+.list ul li
+{
+	list-style-type:none;	li
+	background-color:#B90504;
+	margin-bottom:0.1em;
+	border-radius:0.2em;
+}
+.list ul li a
+{
+	margin-left:1%;
+	text-decoration:none;  a
+	color:#fff;
+}
+.wrapper
+{
+    display:none;
+}
+.list ul li:hover 
+{
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	
+}
+
+slider disabled
+#slider
+{
+	display:none ;
+}
+.button_style
+{
+	float : left;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	color:#fff;
+	padding:0.4em;
+	margin-left:1%;
+	text-decoration:none;
+	border-radius:0.2em;
+}
+.button_style:hover
+{
+	text-decoration:underline;
+	background: -webkit-linear-gradient(#DB4342, #B90504); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504); Standard syntax (must be last)
+}
+.new_arr
+{
+	float:right;
+	margin-right:0.5em;
+}
+li
+{
+	list-style-type:none;
+}
+#hide_me
+{
+	display:none;
+}
+#footer
+{
+	width:98%;
+	color:#fff;
+	margin-bottom:0.4em;
+}
+.mobile_clear
+{
+	clear:both;
+}
+.bg_image
+{
+	background-image:url('../img/choco.JPG');
+	background-repeat:no-repeat;
+	height:15em;
+}
+.footer_margin
+{
+	float:left;
+	margin-top:1em;
+	margin-left:1.5em;
+}
+.float_right
+{
+	float:right;
+	margin-top:1em;
+	margin-right:1.5em;
+}
+.footer_container
+{
+	display:none;
+}
+.img_size
+{
+	margin-left:0.3em;
+	height:2em;
+	width:2em;
+	z-index:1;
+	
+}
+.right_margin
+{
+	margin-left:-2em;
+}
+.connect
+{
+	margin-left:11%;		follow_us - div; connect us
+	color:#B90504;
+	float:left;
+}
+.copyright
+{
+	color:#fff;
+	background: -webkit-linear-gradient(#DB4342, #B90504,#DB4342); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#DB4342, #B90504,#DB4342); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(#DB4342, #B90504,#DB4342); For Firefox 3.6 to 15
+    background: linear-gradient(#DB4342, #B90504,#DB4342); Standard syntax (must be last)
+	width:93.5%;
+	margin-left:0.2em;
+	font-size:1em;
+	padding:0.5em;			copyright
+	text-align:center;
+}
+
+} */

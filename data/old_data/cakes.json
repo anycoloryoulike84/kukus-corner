@@ -1,0 +1,32 @@
+{
+    "success": "yep",
+    "cakes":
+        [
+            {
+                "id": "0",
+                "name": "Swiss chocolate cake",
+                "description": "Amazing swiss chocolate bar. Too incrediable to let some one else to eat it.",
+                "price": "19.99",
+                "weight": "0.9",
+                "flavor": "Great",
+                "imgPath": "img/chocolate.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "nope"
+                }
+            },
+            {
+                "id": "134",
+                "name": "Birthday cake",
+                "description": "Amazing birthday cake made exactly for your friend's birthday",
+                "price": "29.99",
+                "weight": "2.3",
+                "flavor": "Super",
+                "imgPath": "img/birthdayCake.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "yep"
+                }
+            }
+        ]
+}

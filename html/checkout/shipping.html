@@ -1,0 +1,49 @@
+<div class="shipping">
+
+	<div class="shipping-Wrapper">
+	
+			<h4 class="product-color">SHIPPING DETAILS</h4>
+			<h5>Please provide a shipping address to calculate shipping fees and taxes.</h5>
+		
+			<form name="shippingForm">
+				
+				<p class="break">FIRST NAME:</p>
+				<input type="text" name="fName" placeholder="First Name" ng-model="users.fName" class="input-width" required/>
+			
+				<p class="break">LAST NAME:</p>
+				<input type="text" name="lName" placeholder="Last Name" ng-model="users.lName" class="input-width" required/>
+				
+				<p class="break">EMAIL ID:</p>
+				<input type="email" name="email" placeholder="Email" ng-model="users.Email" class="input-width" required/>
+				<span>eg:john@doe.com</span>
+				
+				<p class="break">COUNTRY: </p>
+        		<select ng-model="selectedCountry.name" ng-options="country.name for country in chooseCountries">
+        			<option value="">-- Select Country --</option>
+        		</select>
+				<p class="break">ZIP CODE:</p>
+				<input type="text" name="zip" placeholder="XXXXXX" ng-model="users.zip" maxlength = "6" class="input-width" required/>
+				<span>eg:123456</span>
+				
+				<p class="break">MOBILE</p>
+				<input type="text" pattern='\d{3}[\-]\d{3}[\-]\d{4}' name="phone" placeholder="XXX-XXX-XXXX" maxlength = "12"  ng-model="users.phone" class="input-width" required/>
+				<span>eg:111-111-1111</span>
+				
+				<div class="break"></div>
+				
+				<div id="signInButton" style="margin-bottom:5em">
+				<input type="submit" class="guestButton" ng-click="update(users)" value="CONTINUE TO CHECKOUT"/>
+				</div>
+			</form>
+			<ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout> 
+				 
+<div>
+	<a href="#placeorder">click me</a>
+</div>
+					
+				 <!-- <pre>form = {{users | json}}</pre>
+ 				 <pre>master = {{masters | json}}</pre> -->
+			
+	</div>
+
+</div>

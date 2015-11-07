@@ -1,0 +1,51 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+.product {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+.prodImg {
+    border: 1px solid #eee;
+}
+
+
+
+
+.productsContainer{
+	max-width:1200px;
+	margin:auto;
+}
+#cart{
+	background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    height: 48px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 150px;
+}

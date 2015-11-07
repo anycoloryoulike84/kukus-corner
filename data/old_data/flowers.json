@@ -1,0 +1,32 @@
+{
+    "success": "yep",
+    "flowers":
+        [
+            {
+                "id": "324",
+                "name": "Wedding bouquet",
+                "description": "The best wedding flowers you can get",
+                "price": "19.99",
+                "type": "Roses",
+                "occasion": "wedding",
+                "imgPath": "img/weddingFlowers.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "nope"
+                }
+            },
+            {
+                "id": "7867",
+                "name": "Summer bouquet",
+                "description": "Amazing summer flowers bouquet for your girlfriend or wife",
+                "price": "49.99",
+                "type": "Different",
+                "occasion": "Casual",
+                "imgPath": "img/summerFlowers.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "nope"
+                }
+            }
+        ]
+}

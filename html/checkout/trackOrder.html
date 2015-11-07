@@ -1,0 +1,82 @@
+<style>
+	.form-section {
+	    font-size:18px;
+	    margin:15px;
+	    
+	}
+	.form-section p {
+	    margin:5px 0;
+	}
+	.form-section input:not([type='submit']) {
+	    outline:0;
+	    padding:2px 4px;
+	    width:220px;
+	}
+	.form-section .custom-error {
+	    color:#524446;
+	    background-color:#BBA6A8;
+	}
+
+</style>
+
+
+<div>
+    <!-- <div class="panel panel-info">
+      <div class="panel-heading"> -->
+     <div class="margin-Left"> 
+      <h4 class="product-color">Get details about your order here.</h4>
+           
+             <p class="break">Enter your order number:</p>        
+	         <form name="orderForm" novalidate ng-submit="trackOrder()">
+	            <div class="form-section">
+	                <input type="text" name="orderId" ng-model="orderId" required ng-pattern="/^[0-9]+$/" />
+	                <button type="button" class="guestButton" ng-click="trackOrder();" ng-disabled="orderForm.orderId.$pristine || orderForm.orderId.$dirty && orderForm.orderId.$invalid">Track Order</button>
+	                <div class="custom-error" ng-show="orderForm.orderId.$dirty && orderForm.orderId.$invalid">Invalid: <span ng-show="orderForm.orderId.$error.required">Order id is required.</span>	
+	                 <span ng-show="orderForm.orderId.$error.pattern">order id doesn't respect the pattern.</span>
+	                </div>
+	            </div>
+	        </form>	 
+      </div>
+      <div class="panel-body">      
+		 <div id="basic-info" ng-if="orderTracking">
+           <div class="row form-section">
+		   		<span class="label label-default">Order Status: {{orderTracking.status}}</span>
+		   </div>
+		   <div class="row form-section">		
+		        <span class="label label-default">Order ID: {{orderTracking.orderId}}</span>
+		   </div>
+		   <div class="row form-section">     			     
+		        <span class="label label-default">Placed on: {{orderTracking.date}}</span>
+		   </div>
+		   <div class="row form-section">		
+		        <span class="label label-default">Shipped to: {{orderTracking.shippingAddress}}</span>
+	       </div>
+        </div>
+        <div class="break"></div>   
+		    
+		  <div id="products-in-order" ng-controller="trackOrderCtrl" ng-if="orderTracking">		     
+		     <table class="table-responsive">
+			    <thead>
+			      <tr>
+			         <th class="col-xs-1"></th>  
+			        <th class="col-xs-2">Product Name</th> 
+			        <th class="col-xs-2">Product Quantity</th>
+			        <th class="col-xs-2">Status</th>
+			        <th class="col-xs-2">Price</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr ng-repeat="product in orderTracking.products" ng-class-odd="'alt'">
+			        <td class="col-xs-1"><img ng-src="{{product.image}}" class="img-thumbnail img-responsive img-square"></td> 
+			        <td class="col-xs-2 cap">{{product.name}}</td> 
+			        <td class="col-xs-2 cap">{{product.quantity}}</td>
+			        <td class="col-xs-2 strong">{{product.status}}</td>
+			        <td class="col-xs-2">{{product.price}}</td>
+			      </tr>
+			    </tbody>
+	         </table>	    
+		  </div> 
+		    
+        </div>
+   <!--  </div> -->
+</div>

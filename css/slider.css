@@ -1,0 +1,24 @@
+/* Carousel On Top */
+  
+#slider
+{
+	height:36em;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+#slides_control > div {
+  height: 100px;
+}
+	
+#carousel_imgs {
+  margin: auto;
+  width: 1400px;
+}
+
+#slides_control {
+  position: absolute;
+  width: 1400px;
+}
+

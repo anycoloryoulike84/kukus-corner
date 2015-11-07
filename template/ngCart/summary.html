@@ -1,0 +1,12 @@
+<!-- CART ON INDEX WHERE COUNTER IS INCREASED BY ADDING DATA  -->
+
+    <span class="item-color">
+    	 <!-- <img ng-src="img/cart.png" class="pull-left" id="cart_img" />  -->
+      	 
+      	 <span class="item-position"> {{ ngCart.getTotalItems() }}<ng-pluralize count="ngCart.getTotalItems()" when="{1: ' item', 'other':' items'}"></ng-pluralize></span> 
+         </span>
+         
+         <div class="item-color">{{ ngCart.totalCost() | currency }}</div>
+    
+   
+</div>

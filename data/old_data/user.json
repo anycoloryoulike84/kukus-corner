@@ -1,0 +1,58 @@
+{
+	"id": "2343",
+	"email": "angela@mail.com",
+	"firstName": "Angela",
+	"lastName": "Smith",
+	"shippingDetails": {
+		"address1": "Gagarina street 1",
+		"address2": "",
+		"city": "Nizhny Novgorod",
+		"country": "Russia",
+		"zip": "603104",
+		"phoneNumber": "999-999-99-99"
+	},
+	"cart": [
+		{
+			"id": "1",
+			"name": "Angry bird anti-stress",
+			"description": "Anti-stress angry bird toy. It's soft and cool. You can kick and crash it on your choice.",
+			"category": "Toys",
+			"price": "38.99",
+			"weight": "0.9",
+			"imgPath": "img/toy.jpg"
+		},
+		{
+			"id": "2",
+			"name": "100 kinders collection",
+			"description": "This is a 100 kinders exactly like you always wanted.",
+			"category": "Chocolate",
+			"price": "49.99",
+			"weight": "0.9",
+			"imgPath": "img/kinder.jpg"
+		}
+	],
+	"ordersHistory": [
+		{
+			"id": "324",
+			"date": "2/23/2012",
+			"productId": "1",
+			"name": "Angry bird anti-stress",
+			"description": "Anti-stress angry bird toy. It's soft and cool. You can kick and crash it on your choice.",
+			"category": "Toys",
+			"price": "38.99",
+			"weight": "0.9",
+			"imgPath": "img/toy.jpg"
+		},
+		{
+			"id": "34",
+			"date": "2/20/2011",
+			"productId": "2",
+			"name": "100 kinders collection",
+			"description": "This is a 100 kinders exactly like you always wanted.",
+			"category": "Chocolate",
+			"price": "49.99",
+			"weight": "0.9",
+			"imgPath": "img/kinder.jpg"
+		}
+	]
+}

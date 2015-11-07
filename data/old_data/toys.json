@@ -1,0 +1,28 @@
+{
+    "success": "yep",
+    "toys":
+        [
+            {
+                "id": "4543",
+                "name": "Angry bird toy",
+                "description": "Soft anti stress angry bird toy for you and your kids",
+                "price": "19.99",
+                "imgPath": "img/toy.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "yep"
+                }
+            },
+            {
+                "id": "78454367",
+                "name": "Big dog",
+                "description": "Huge size toy dog is great gift for your children",
+                "price": "43.99",
+                "imgPath": "img/softDog.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "yep"
+                }
+            }
+        ]
+}

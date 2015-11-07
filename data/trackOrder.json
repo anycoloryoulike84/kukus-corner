@@ -1,0 +1,23 @@
+{
+    "orderId": "4456",
+    "status": "Incomplete",
+    "date": "12/23/2013",
+    "shippingAddress": "80 Harris place, Fremont, CA, 94536",
+    "products":
+        [
+            { 
+                "name": "Angry bird anti-stress",
+                "quantity": "3",
+                "price": "42",
+                "image": "img/gift1.jpg",
+                "status": "Shipped"
+            },
+            {
+                "name": "Swiss chocolate cake",
+                "quantity": "1",
+                "price": "24.39",
+                "image": "img/product9_small.jpg",
+                "status": "Delivered"
+            }
+        ]
+}

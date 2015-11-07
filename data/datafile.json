@@ -1,0 +1,163 @@
+{
+    "items": {
+        "Cakes": [
+            {
+                "name": "STRAWBERRY CAKE",
+                "price": 10.99,
+                "description": "Strawberry, Wheat flour, Eggs, Chocolates.",
+                "category": "Cakes",
+                "ingredients": "Strawberry, Wheat flour, Eggs, Chocolates.",
+                "nutrionalValue": "880 calories",
+                "image": "img/product1.JPG",
+                "id": "cake1"
+            },
+            {
+                "name": "CHOCOLATE VANILLA CAKE",
+                "price": 16.99,
+                "description": "Dark Chocolate, Vanilla, Wheat Flour, Strawberry",
+                "category": "Cakes",
+                "ingredients": "Dark Chocolate, Vanilla, Wheat Flour, Strawberry ",
+                "nutrionalValue": "730 calories",
+                "image": "img/product5.JPG",
+                "id": "cake2"
+            }
+        ],
+        "Flowers": [
+            {
+                "name": "ROSE FLOWER BOUQUET",
+                "price": 19.99,
+                "description": "Pink Roses, Clematis, African Voilets, Crocuses, Tulips, Yellow Columbine",
+                "category": "Flowers",
+                "ingredients": "Pink Roses, Clematis, African Voilets, Crocuses, Tulips, Yellow Columbine",
+                "image": "img/product6.JPG",
+                "id": "flower2"
+            },
+            {
+                "name": "DAISY FLOWER BOUQUET",
+                "price": 10.99,
+                "description": "Picked fresh from the farm to bring vibrant color and happy wishes to your special recipient, the Colorful World Gerbera Daisy Bouquet will lift their spirits with each sunlit bloom. Hand gathered in select floral farms and showcasing a rainbow of color, including red, yellow, pink, white, and orange.",
+                "category": "Flowers",
+                "ingredients": "Yellow daisy, Clematis, Crocuses(purple)",
+                "image": "img/product3.JPG",
+                "id": "flower1"
+            }
+        ],
+        "Chocolates": [
+            {
+                "name": "DARK CHOCOLATE",
+                "price": 20.99,
+                "description": "Dark cocoa Chocolate, Milk, Sugar, Salt, Eggs",
+                "category": "Chocolates",
+                "ingredients": "Dark cocoa Chocolate, Milk, Sugar, Salt, Eggs",
+                "nutrionalValue": "200 calories",
+                "image": "img/product4.JPG",
+                "id": "choco1"
+            },
+            {
+                "name": "MILKY NUT CHOCO",
+                "price": 13.99,
+                "description": "Milk, Nuts, Cocoa, Caramel",
+                "category": "Chocolates",
+                "ingredients": "Milk, Nuts, Cocoa, Caramel",
+                "nutrionalValue": "390 calories",
+                "image": "img/product7.JPG",
+                "id": "choco2"
+            },
+            {
+                "name": "COCOA BEANS DARK CHOCOLATE",
+                "price": 18.99,
+                "description": "Muffins, Chocolates, Eggs, Dark Cocoa",
+                "category": "Chocolates",
+                "ingredients": "Muffins, Chocolates, Eggs, Dark Cocoa",
+                "nutrionalValue": "300 calories",
+                "image": "img/product9.JPG",
+                "id": "choco3"
+            }
+        ],
+        "Toys": [
+            {
+                "name": "TEDDY BEAR",
+                "price": 12.99,
+                "description": "Soft cotton, Threaded cloth",
+                "category": "Toys",
+                "ingredients": "Soft cotton, Threaded cloth",
+                "image": "img/product2.JPG",
+                "id": "toy1"
+            },
+            {
+                "name": "TOM AND JERRY TOY",
+                "price": 20.99,
+                "description": "Rubber, Plastic",
+                "category": "Toys",
+                "ingredients": "Rubber, Plastic",
+                "image": "img/product8.JPG",
+                "id": "toy2"
+            }
+        ],
+        "SpecialGifts": [
+            {
+                "name": "ROSE CHOCO TEDDY COMBO",
+                "price": 39.99,
+                "description": "Combination of roses,chocolates with teddy bear",
+                "category": "SpecialGifts",
+                "ingredients": "Red roses,dark chocolates and Soft toy cotton",
+                "image": "img/special-gifts/allCombo1.jpg",
+                "id": "combo1"
+            },
+            {
+                "name": "DAISY/ROSES CHOCO TOY COMBO",
+                "price": 44.99,
+                "description": "Milk chocolates with nuts, daisy and red roses with teddy bear",
+                "category": "SpecialGifts",
+                "ingredients": "Milk chocolates,daisy and red roses, Soft cotton",
+                "image": "img/special-gifts/allCombo2.PNG",
+                "id": "combo2"
+            },
+            {
+                "name": "FLOWER BOUQUET WITH TEDDY",
+                "price": 24.99,
+                "description": "Combination of freshly picked Pink roses with Soft cotton teddy bear",
+                "category": "SpecialGifts",
+                "ingredients": "Soft cotton, Threaded cloth, pink roses",
+                "image": "img/special-gifts/allCombo3.jpg",
+                "id": "combo3"
+            },
+            {
+                "name": "CHOCOLATE BASKET GIFT PACK",
+                "price": 49.99,
+                "description": "Variety of chocolates with chocolate fudge and dark chocolate chips.",
+                "category": "SpecialGifts",
+                "ingredients": "Cocoa beans, eggs,nuts,wheat",
+                "image": "img/special-gifts/choclateCombo1.jpg",
+                "id": "combo4"
+            },
+            {
+                "name": "MIX CHOCOLATES GIFT PACK",
+                "price": 20.99,
+                "description": "Varity of chocolates balls and chips with caramel,cocoa,milk and nuts",
+                 "category": "SpecialGifts",
+                "ingredients": "Wheat,eggs,caramal,milk,wheat,cocoa.",
+                "image": "img/special-gifts/choclateCombo2.jpg",
+                "id": "combo5"
+            },
+            {
+                "name": "MIX BRAND CHOCOLATES PACK",
+                "price": 39.99,
+                "description": "Varity of various chocolates brand chocos with caramel,cocoa,milk and nuts",
+                "category": "SpecialGifts",
+                "ingredients": "Wheat,eggs,caramal,milk,wheat,cocoa.",
+                "image": "img/special-gifts/choclateCombo3.jpg",
+                "id": "combo6"
+            },
+            {
+                "name": "CHOCOLATE AND ROSES PACK",
+                "price": 24.99,
+                "description": "Freshly picked red roses and Chocolate balls made up of cocoa,milk and nuts.",
+                "category": "SpecialGifts",
+                "ingredients": "Red roses,Wheat,eggs,caramal,milk,wheat,cocoa.",
+                "image": "img/special-gifts/choclateCombo4.jpg",
+                "id": "combo7"
+            }
+        ]
+    }
+}

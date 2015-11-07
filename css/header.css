@@ -1,0 +1,118 @@
+/* LOGO, LOGIN,  SEARCH BAR, MENU BAR */
+#header-container
+{
+	color:#fff;
+	background-color:#524446;	
+}
+#logo
+{
+	color:#fff;
+	margin-top:1.5em;
+	margin-left:0.7em;
+	font-weight:700;
+	font-size:3em;
+	font-family:calibri;
+}
+#logo:hover
+{
+	text-decoration:none;
+	outline:none;
+}
+#logIn
+{
+	margin-top:2em;	
+}
+#logIn a{
+	color:#fff;
+	text-decoration:none;
+}
+#ngCart-count{
+	margin-top:1.8em;
+	margin-left:1em;
+	margin-right:1em;
+}
+#ngCart-count a{
+	text-decoration:none;
+}
+.item-position{
+	margin-top:1em;
+	margin-left:0.3em;
+}	
+.item-color{
+	color:#FFF;
+}
+
+
+.hr-border
+{
+	display:inline;
+	border:1px solid #fff;
+	margin:0.3em;
+}
+#cart_img
+{
+	 height:2em;
+	 width:1.7em;
+}
+.search
+{
+	width:70%;
+	margin-left:1em;
+}
+.textbox-size
+{
+	margin-top:0.5em;
+	margin-left:1em;
+	width:54em;
+	color:#524446;
+}
+
+/*MENU BAR  #ED848F;  337ab7*/
+
+.nav{
+	background-color:#524446;
+}
+.nav ul{
+	
+	width:99%;
+}
+.nav ul li{
+	display:block;
+	width:17em;
+	float:left;
+	margin-left:0em;
+	text-align:center;
+	padding:1em;
+	background-color:#524446;
+}
+.nav ul li a{
+	padding:1em;
+	color:#fff;
+	font-size:1.1em;
+	font-weight:500;
+}
+.nav ul li a:hover{
+	background-color:#c6b4b6;
+	color:#524446;
+	text-decoration:none;
+	border:2px solid #FFF;
+	border-radius:5px;
+}
+.nav ul li:hover{
+	background-color:#524446;
+	padding:1em;
+	/* border-bottom:0.3em solid #7992B7;
+	border-top:0.3em solid #7992B7; */
+}
+.nav ul li a:focus{
+	color:#fff;
+	text-decoration:none;
+	outline:none;
+}
+.nav ul li a:active{
+	color:#fff;
+	text-decoration:none;
+	outline:none;
+}
+}
+

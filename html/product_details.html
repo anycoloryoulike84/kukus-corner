@@ -1,0 +1,120 @@
+		<!-- ======================================  IMAGES   ===============================================  -->
+						 
+					<ul>
+					  <li ng-repeat="image in product" style="width:30%; float:left;">
+					    <img ng-src="{{image.image}}" ng-click="setMediumImage($index);changeclass()" class="size">
+					  </li>
+					</ul>
+					
+					<div class="clear"></div>
+					<div class="break"></div>
+					
+					<div ng-class="classes" class="hide_it">
+					
+						<!-- ================  MEDIUM SIZE IMAGE AND ITS INFO  ===================  -->
+						
+						<img ng-src={{lrgImageURL}} ng-click="setLrgImage($indexes)" class="medium_imageSize"/>
+							  <div class="break"></div>
+					
+						<div class="description_width">
+								  <p class="data-position"><b>Name: {{lrgImageName}} </b></p>
+								  <p class="data-position"><b>Price:</b> {{lrgImagePrice}} </p>
+								  <p class="data-position"><b>Ingredients: </b>{{lrgImageIngredients}}</p>
+								  <p class="data-position" ><b>Category : </b>{{category}} </p>
+								  
+								  	<div ng-if="category == 'Cakes' || category == 'Chocolates' ">
+								  		<p class="data-position"><b>Calories: </b>{{lrgImageCalories}}</p>
+								  	</div>
+								 	
+							<!-- ==================== RATING STARS   ========================  -->
+								 
+							<div class="break">
+				        			<span class="rating_position">
+									<h3>Rating : &nbsp;
+									<span ng-init="rating = star.rating + 1"></span>
+									<span style="float:right;" class="star-rating" star-rating rating-value="rating" data-max="5" on-rating-selected="rateFunction(rating)" >
+			        				</span>
+			        				</span>
+			        				</h3>
+			        		</div>
+			        		<div class="clear"></div>
+			        		<!-- ================  QUANTITY  ===================  --> 
+			        		
+			        		<div>
+								<h3 class="data-position"><b>Quantity : </b> 
+								<div class="quantity_wrapper">
+										<ul class="ul_style">
+							       		<li></li>
+							        </ul>
+		        					<div counter value="quantity1" min="0"></div>
+								</div>
+					        	</h3>	        
+   							</div>
+   							
+   							<!-- ==========================  SIZES IN CAKES  =========================== -->
+   							
+   							<div class="break"></div>
+   							<div style=" float:left; margin-left:2em;">
+	   							<h4>SIZES: </h4>
+	   							<div style="color:red; font-size:1.1em; float:left; margin-top:-1.7em; margin-left:4em;">
+	   							<select>
+	   								<option>4 inch</option>
+	   								<option>8 inch</option>
+	   								<option>10 inch</option>
+	   								<option>12 inch</option>
+	   								<option>16 inch</option>
+	   							</select>
+	   							</div>
+   							</div>
+   							
+			        </div>
+						
+		
+				<!-- ================  REVIEWS  ===================  -->
+					<div class="clear"></div>
+					<div>
+						<p class="data-position"><b> Reviews: </b> </p>
+			        	<textarea placeholder="ENTER YOUR REVIEWS" class="data-position" rows="4" cols="40"></textarea>
+			        	<button ng-click="log_in()" class="button_style width">SUBMIT</button>
+			        </div>
+			        	<div class="clear"></div>
+			        	
+<!-- ===================================== ADD TO CART ======================================== -->
+				<div class="break"></div>
+					<div style="margin-top:-9em;margin-left:70%; height:5em; width:5em; border:1px solid green;">
+						<button>Add to cart</button>
+					
+					</div>
+			        	
+			        	
+			     </div>
+						<div class="clear"></div>
+
+
+				
+					<!-- =======================  LIGHT BOX  ========================= -->
+		
+					<div class="modalBox-margin">
+						<modal-dialog show='modalShown' class="dialog_width">
+							  <img ng-src={{lrgImageURL}} class="large_imagesize"/>
+						</modal-dialog> 
+					</div> 
+					
+		
+	<!-- ===================================== FREQUENTLY BOUGHT TOGETHER ======================================== -->
+	<div class="break"></div>
+		<div style="margin-left:1em; width:95%;">
+			<h3 class="button_style">FREQUENTLY BOUGHT TOGETHER</h2>
+				<div class="clear"></div>
+				<div class="break"></div>
+					<data-owl-carousel class="owl-carousel" data-options="{navigation: false, pagination: true, rewindNav : false}">
+					      <div owl-carousel-item="" ng-repeat="image in product" class="item">
+						  		<a href="#product_details" target="_blank"><img ng-src="{{image.image}}" class="size borders" /></a>
+						  		<p class="position_info" >NAME: {{image.name}}</p>
+						  		<p class="position_info" >PRICE: {{image.price}}</p>
+					      </div>
+				   	  </data-owl-carousel>
+		
+		</div>
+		<div class="clear"></div>
+		<div class="break"></div>

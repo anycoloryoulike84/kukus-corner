@@ -1,0 +1,57 @@
+<div class="signUp">
+		
+	<div class="signUp-Wrapper">
+			
+			<h4 class="product-color">SIGN UP FOR PERSONAL ACCOUNT</h4>
+		
+			<form name="form">
+				
+				<p class="break">FIRST NAME:</p>
+				<input type="text" name="fName" placeholder="First Name" ng-model="users.fName" class="input-width" required/>
+				
+				<p class="break">LAST NAME:</p>
+				<input type="text" name="lName" placeholder="Last Name" ng-model="users.lName" class="input-width" required/>
+				
+				<p class="break">EMAIL ID:</p>
+				<input type="email" name="email" placeholder="Email" ng-model="users.Email" class="input-width" required/>
+				<span>eg:john@doe.com</span>
+				
+				<p class="break" >PASSWORD:</p>
+				<input ng-model='users.password' type="password" name='password' placeholder='Password' required>
+    							
+				<p class="break">CONFIRM PASSWORD:</p>
+				<input ng-model='users.confirmPassword' type="password" name='confirmPassword' placeholder='Confirm password' required />
+   			    <div ng-if="users.password !== users.confirmPassword">
+   			    	<span> Passwords don't match. </span>
+   			    </div>
+				
+				<p class="break">MOBILE:</p>
+				<input type="text" pattern='\d{3}[\-]\d{3}[\-]\d{4}' name="phone" placeholder="XXX-XXX-XXXX" maxlength = "12"  ng-model="users.phone" class="input-width" required/>
+				<span>eg:111-111-1111</span>
+				
+				<p class="break">ZIP CODE:</p>
+				<input type="text" name="zip" placeholder="XXXXXX" ng-model="users.zip" maxlength = "6" class="input-width" required/>
+				<span>eg:123456</span>
+				
+				<div class="break"></div>
+				<p class="product-color">By clicking "SIGN IN" I agree that:</p>
+					<ul class="li-list-style-type">	
+						<li>I have read and accepted the User Agreement and Privacy Policy.</li>
+						<li>I may receive communications from kukusCorner and can change my notification preferences in My KukusCorner.</li>
+						<li>I am at least 18 years old.</li>
+					</ul>
+				<div class="break"></div>
+				<input type="submit" ng-click="update(users)" value="SIGN IN"/>
+				
+				
+				</form>
+					
+				 <!-- <pre>form = {{users | json}}</pre>
+ 				 <pre>master = {{masters | json}}</pre> -->
+			
+	</div>
+
+</div>
+
+<div class="clear"></div>
+<div class="break"></div>

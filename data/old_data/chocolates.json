@@ -1,0 +1,30 @@
+{
+    "success": "yep",
+    "chocolates":
+        [
+            {
+                "id": "54545",
+                "name": "Ferrero Rocher",
+                "description": "Perfect chocolate cangies for everyone",
+                "price": "19.99",
+                "type": "Black",
+                "imgPath": "img/chocolateBlack.jpg",
+                "availability": {
+                    "usa": "yep",
+                    "india": "nope"
+                }
+            },
+            {
+                "id": "090889",
+                "name": "Kinder chocolate",
+                "description": "Huge bag of kinders for your kids",
+                "price": "29.99",
+                "type": "Milk",
+                "imgPath": "img/kinder.jpg",
+                "availability": {
+                    "usa": "nope",
+                    "india": "nope"
+                }
+            }
+        ]
+}

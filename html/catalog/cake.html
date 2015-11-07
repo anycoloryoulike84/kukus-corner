@@ -1,0 +1,39 @@
+<!-- =====================================  SEARCH BAR AND SEARCH BUTTON  ========================================= -->
+		<div class="search-margin-Left">
+			<h4 class="pull-left product-color">Search Products:</h4>
+			<input type="text" ng-model="searchbar" class="pull-left textbox-size" ></input>
+			<button class ="btn btn-color" type="submit" >Search</button>
+		</div>
+	
+<!-- =====================================  SEARCH FILTER IMPLEMENTAION  ========================================= -->
+
+<div ng-product='filteredProducts.length > 0' >
+		 <div class="break"></div>
+		 <hr class="hr-color"/>
+		 <div class="clear"></div>
+
+<!-- =====================================  NG-CART  ========================================= -->
+
+	<div class="row">
+	    <div class="col-xs-6 col-sm-3" id="gallery">
+		     		
+				<div class="pull-left padding-Bottom element-margin" ng-repeat="product in filteredProducts = (productCakes | filter: searchbar)">
+					<a href="#/productInfo/{{filteredProducts.indexOf(product)}}">
+					 <img ng-src="{{product.image}}" class="small-img" />
+					</a>
+					<div class="break"></div>
+					<p class="product-font">{{product.name}}</p>
+					<p class="product-font">{{product.price}}</p>
+					<div class="break"></div>
+					<div class="ngCart-position">
+					<ngcart-addtocart id="{{ product.id }}" name="{{ product.name }}"
+						price="{{product.price}}" quantity="1" quantity-max="5">Add to Cart</ngcart-addtocart>
+					</div>
+	
+				</div>
+			</div>
+			    <div class="clear"></div>
+				<div class="break"></div>
+			
+    </div>
+</div>

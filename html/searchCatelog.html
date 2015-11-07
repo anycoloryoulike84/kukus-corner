@@ -1,0 +1,22 @@
+<style>
+    .highlighted { background: yellow }
+</style>
+
+<div class="row">
+    <div class="col-xs-6 col-sm-3" id="gallery">     		
+		<div class="pull-left padding-Bottom element-margin" ng-repeat="product in products.name | filter: searchParameter">
+			<a href="#/productInfo/{{products.indexOf(product)}}">
+			 <img ng-src="{{product.image}}" class="small-img" />
+			</a>
+			<div class="break"></div>
+			<p ng-bind-html="product.name | highlight:searchParameter"></p>
+			<p class="product-font">{{product.name}}</p>  
+			<p class="product-font">{{product.price}}</p>
+			<div class="break"></div>
+			<div class="ngCart-position">
+			<ngcart-addtocart id="{{ product.id }}" name="{{ product.name }}"
+				price="{{product.price}}" quantity="1" quantity-max="5">Add to Cart</ngcart-addtocart>
+			</div>
+		</div>
+    </div>	
+</div> 
